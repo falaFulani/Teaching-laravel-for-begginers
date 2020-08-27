@@ -39,7 +39,7 @@ class CreateRoomsTable extends Migration
             $table->softDeletes();
         });
 
-        Schema::create('rates', function (Blueprint $table) {
+     Schema::create('rates', function (Blueprint $table) {
             $table->bigIncrements('id')->comment('The Primary Key for the table.');
             $table->unsignedInteger('value')->comment('The rate for the room in whole cents.');
             $table->unsignedBigInteger('room_type_id')->index('room_type_id')->comment('The corresponding room type.');

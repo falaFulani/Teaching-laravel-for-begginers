@@ -20,23 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5102425a-7ad0-4933-8813-edf6650d9459" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/bookings/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/bookings/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/bookings/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/bookings/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rooms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rooms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/42bacb18-111c-41e8-9b2d-29d0b683c086.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e128595-61f6-43b6-ae1b-c5f6f2ee484d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Booking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_18_114517_create_rooms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_114517_create_rooms_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safaricom/websites/2020/customaniac/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/safaricom/websites/2020/customaniac/images/customaniac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/safaricom/websites/2020/customaniac/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,13 +162,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gAuAuFqF49pv1DWgXT8izv2C1c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -202,6 +203,10 @@
       <updated>1597569587638</updated>
       <workItem from="1597569590364" duration="19404000" />
       <workItem from="1597812902559" duration="13156000" />
+      <workItem from="1597894563179" duration="6385000" />
+      <workItem from="1598138551079" duration="737000" />
+      <workItem from="1598342167763" duration="1100000" />
+      <workItem from="1598432321316" duration="83000" />
     </task>
     <servers />
   </component>
@@ -218,36 +223,59 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="42" key="#Deployment" timestamp="1597838136734">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="290" y="69" key="#Deployment" timestamp="1598343168824">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="275" y="42" key="#Deployment/0.0.1366.768@0.0.1366.768" timestamp="1597838136734" />
-    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597836688422">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="290" y="69" key="#Deployment/0.23.1440.833@0.23.1440.833" timestamp="1598343168824" />
+    <state x="212" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597896717088">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1597836688422" />
+    <state x="212" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1597896717088" />
+    <state x="478" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597895084963">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="478" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.826@0.23.1440.826" timestamp="1597867085889" />
+    <state x="478" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.828@0.23.1440.828" timestamp="1597895084963" />
+    <state x="120" y="143" width="1200" height="586" key="DiffContextDialog" timestamp="1597867147427">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="120" y="143" width="1200" height="586" key="DiffContextDialog/0.23.1440.826@0.23.1440.826" timestamp="1597867147427" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1597836682243">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="110" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1597836682243" />
-    <state width="905" height="192" key="GridCell.Tab.0.bottom" timestamp="1597641605865">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1358" height="201" key="GridCell.Tab.0.bottom" timestamp="1597868119969">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="905" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1597641605865" />
-    <state width="905" height="192" key="GridCell.Tab.0.center" timestamp="1597641605865">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1358" height="201" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1597868119969" />
+    <state width="1358" height="201" key="GridCell.Tab.0.center" timestamp="1597868119967">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="905" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1597641605865" />
-    <state width="905" height="192" key="GridCell.Tab.0.left" timestamp="1597641605864">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1358" height="201" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1597868119967" />
+    <state width="1358" height="201" key="GridCell.Tab.0.left" timestamp="1597868119962">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="905" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1597641605864" />
-    <state width="905" height="192" key="GridCell.Tab.0.right" timestamp="1597641605865">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1358" height="201" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1597868119962" />
+    <state width="1358" height="201" key="GridCell.Tab.0.right" timestamp="1597868119967">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="905" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1597641605865" />
+    <state width="1358" height="201" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1597868119967" />
+    <state width="221" height="457" key="HiddenNamespacesPopup" timestamp="1597896754049">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="221" height="457" key="HiddenNamespacesPopup/0.23.1440.828@0.23.1440.828" timestamp="1597896754049" />
     <state x="539" y="283" key="WebDeployment.AddServerDialog.v.1" timestamp="1597837847029">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
